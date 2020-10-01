@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "IIIT Sonepat HacktoberFest Meetup",
+      "time": "October 17' 2020  @  6:00PM",
+      "location": "Virtual",
+      "imagelink": "Collab.png",
+      "formatDate": "17-10-2020"
+    },
+    {
+        "id": 2,
+        "title": "Talk by Mason Egger, 'Getting started with Git and GitHub'",
+        "time": "October 17' 2020  @  6:00PM",
+        "location": "Virtual",
+        "imagelink": "Photos/Mason.png",
+        "formatDate": "17-10-2020"
+    },
+    {
+      "id": 3,
+      "title": "Talk by Garann Means, 'Storming the Gates of Open-Source'",
+      "time": "October 17' 2020  @  7:00PM",
+      "location": "Virtual",
+      "imagelink": "Photos/Garann.png",
+      "formatDate": "17-10-2020"
+    },
+    {
+        "id":4,
+        "title": "Talk by Diana Rodriguez, 'Women in OSS Community'",
+        "time":"October 18' 2020 @ 6:30PM",
+        "location":"Virtual",
+        "imagelink": "Photos/Diana.png",
+        "formatDate":"18-10-2020"
+    }
+  ]
+  

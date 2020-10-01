@@ -56,9 +56,10 @@
   .logo-container:hover .about-back{
     transform: rotateX(0deg);
   }
-	  img {
-    width: 100%;
-    max-width: 600px;
+  img {
+    width: "40";
+	height: "30";
+    /* max-width: 600px; */
     margin: 0 0 1em 0;
   }
   a {
@@ -85,10 +86,6 @@
     .logo-container:hover .logo-front{
       transform: none;
     }
-    #social {
-      
-      margin-top: 110px;
-    }
   }
 </style>
 
@@ -98,7 +95,7 @@
 
 <div class="logo-container">
 	<div class="logo-front">
-		<img alt="logo" src="logo.png" >
+		<img alt="logo" src="logo.png" width="800" height="500">
 	</div>
 	<div class="about-back">
 		<h2> About </h2>
