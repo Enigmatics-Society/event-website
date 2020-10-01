@@ -67,6 +67,7 @@
 
   .nav-link:hover {
     color: #fff;
+	border-bottom: 2px solid #70314f;
   }
 
   .burger-container {
@@ -139,6 +140,10 @@
     z-index: 5;
   }
 
+  .logo-container:hover .logo-back{
+    transform: rotateX(0deg);
+  }
+
   .nav-overlay.open {
     transform: translateX(0%);
   }
@@ -197,14 +202,91 @@
       align-items: center;
     }
   }
+
+  .logo-front {
+      font-size: 1.5rem;
+    }
+  @media (max-width: 500px) {
+    .logo-container {
+      display: inline-block;
+      width: 300px;
+      height: 160px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .logo-front > p{
+      font-size: 1.1rem;
+    }
+    .logo-back{
+      display: none;
+    }
+    .logo-container:hover .logo-front{
+      transform: none;
+    }
+  }
+
+  .logo-container {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    font-size: 2rem;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .4s;
+    perspective: 90px;
+  }
+  .logo-front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: .4s;
+  }
+  .logo-container:hover .logo-front{
+    transform: rotateX(-180deg);
+  }
+  .logo-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: .4s;
+  }
+  .logo-back > p{
+    line-height: 1.9;
+    word-spacing: 1.5;
+  }
+  .logo-back > h2{
+    background-image: linear-gradient(to right,#ffc7d1, #5a03cc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    margin: 5px;
+  }  
 </style>
 
 <nav>
-	<a href=".">
-		<img src = "collab.png" alt="header" class="nav-head"/>
-	</a>
-	<div class="burger-container" on:click={handleClick} class:open={isOpen}>
-		<div class="hamburger-icon"></div>
+	<div class = "logo-container">
+		<div class="logo-front">
+		<a href=".">
+			<img src = "Icon.png" alt="header" class="nav-head" />
+		</a>
+		</div>
+		<div class="logo-back">
+			<a href = ".">
+				<img src = "iiit.png" alt="header1" class="nav-head"/>
+			</a>
+		</div>
+		<div class="burger-container" on:click={handleClick} class:open={isOpen}>
+			<div class="hamburger-icon"></div>
+		</div>
 	</div>
 	<ul class="nav-links ">
 		<li><a class="nav-link" href=".">home</a></li>
