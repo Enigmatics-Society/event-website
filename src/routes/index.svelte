@@ -62,9 +62,6 @@
     /* max-width: 600px; */
     margin: 0 0 1em 0;
   }
-  a {
-    outline: none;
-  }
 
 .logo-front {
       font-size: 1.5rem;
