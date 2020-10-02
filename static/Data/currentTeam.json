@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "Ansh Tyagi",
+      "imgSrc": "Photos/Ansh-2.png"
+    },
+    {
+        "id": 2,
+        "name":"Harshit",
+        "imgSrc":"Photos/Harshit.png"
+    },
+    {
+        "id": 3,
+        "name":"Aneesh",
+        "imgSrc": "Photos/Aneesh.png"
+    }
+  ]
+  
