@@ -36,7 +36,7 @@
     font-weight: bold;
     text-align: center;
     padding-bottom: 1rem;
-    border-bottom: 2px solid #ff8c00;
+    border-bottom: 2px solid #ffc7d1;
   }
 
   .card-list {
