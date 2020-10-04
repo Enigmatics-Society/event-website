@@ -36,7 +36,11 @@
     font-weight: bold;
     text-align: center;
     padding-bottom: 1rem;
+<<<<<<< HEAD
     border-bottom: 2px solid #ffc7d1;
+=======
+    border-bottom: 2px solid #ff8c00;
+>>>>>>> 93e40d665343fd26b32b24cd3c9a7a927c7c7320
   }
 
   .card-list {
