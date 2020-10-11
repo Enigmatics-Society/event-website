@@ -97,7 +97,8 @@
 	<div class="about-back">
 		<h2> About </h2>
 		<div class="divider"></div>
-		<p>Welcome to the first ever HacktoberFest event organised by IIIT Sonepat.
+		<p>
+      Welcome to the first ever HacktoberFest event organised by IIIT Sonepat.
 			<br>
 			As our society grows more and more dependent on computers, the ownership of the software we run needs to be more and more decentralised and open sourced.
 			<br>
@@ -105,7 +106,9 @@
 			<br>
 			From getting started with open source to making your first PR, we will be covering it all.
 			<br>
-			Thanks Digital Ocean for their immense support</p>	
+			A special thanks to Digital Ocean for their immense support</p>	
+      <br>
+      Register Here: <a href="https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup"> https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup </a>
 	</div>
 </div>
 
