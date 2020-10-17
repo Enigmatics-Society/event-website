@@ -109,7 +109,8 @@
 			A special thanks to Digital Ocean for their immense support</p>	
        <br>
       Register Here: <a href="https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup"> https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup </a>
-		Youtube Live Link: <a href = "https://youtu.be/TFUa5bS_7LI"> https://youtu.be/TFUa5bS_7LI </a>
+	<br>	
+	Youtube Live Link: <a href = "https://youtu.be/TFUa5bS_7LI"> https://youtu.be/TFUa5bS_7LI </a>
 	</div>
 </div>
 
