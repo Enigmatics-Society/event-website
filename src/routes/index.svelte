@@ -107,8 +107,10 @@
 			From getting started with open source to making your first PR, we will be covering it all.
 			<br>
 			A special thanks to Digital Ocean for their immense support</p>	
-      <br>
+       <br>
       Register Here: <a href="https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup"> https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup </a>
+	<br>	
+	Youtube Live Link: <a href = "https://youtu.be/TFUa5bS_7LI"> https://youtu.be/TFUa5bS_7LI </a>
 	</div>
 </div>
 
