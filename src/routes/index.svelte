@@ -99,16 +99,18 @@
 		<div class="divider"></div>
 		<p>
       Welcome to the first ever HacktoberFest event organised by IIIT Sonepat.
-			<br>
-			As our society grows more and more dependent on computers, the ownership of the software we run needs to be more and more decentralised and open sourced.
-			<br>
-			Whether you are a big contributor or a first time programmer, you are welcome to join this event. Learning some and sharing some is key.
-			<br>
-			From getting started with open source to making your first PR, we will be covering it all.
-			<br>
-			A special thanks to Digital Ocean for their immense support</p>	
-      <br>
-      Register Here: <a href="https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup"> https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup </a>
+		<br>
+		As our society grows more and more dependent on computers, the ownership of the software we run needs to be more and more decentralised and open sourced.
+		<br>
+		Whether you are a big contributor or a first time programmer, you are welcome to join this event. Learning some and sharing some is key.
+		<br>
+		From getting started with open source to making your first PR, we will be covering it all.
+		<br>
+		A special thanks to Digital Ocean for their immense support</p>	
+		<br>
+		Register Here: <a href="https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup"> https://organize.mlh.io/events/5055-iiit-sonepat-hacktoberfest-meetup </a>
+		<br>
+		YouTube Live Link: <a href = "https://youtu.be/TFUa5bS_7LI"> https://youtu.be/TFUa5bS_7LI </a>
 	</div>
 </div>
 
