@@ -2,34 +2,42 @@
     {
       "id": 1,
       "title": "IIIT Sonepat HacktoberFest Meetup",
-      "time": "October 17' 2020  @  5:30PM",
+      "time": "October 22' 2021  @  5:30PM",
       "location": "Virtual",
       "imagelink": "collab.png",
-      "formatDate": "17-10-2020"
+      "formatDate": "17-10-2020",
+      "name":" ",
+      "company":" "
     },
     {
         "id": 2,
-        "title": "Talk by Mason Egger, 'Getting started with Git and GitHub'",
-        "time": "October 17' 2020  @  6:00PM",
+        "title": "Title here",
+        "name": "Brian Douglas",
+        "time": "October 22' 2021  @  6:00PM",
         "location": "Virtual",
-        "imagelink": "Photos/Mason.png",
-        "formatDate": "17-10-2020"
+        "imagelink": "https://d33wubrfki0l68.cloudfront.net/ced071bb56f55694eeb9d01d3c0a35d3b561d38d/f3fb2/img/brian.jpg",
+        "formatDate": "17-10-2020",
+        "company": "Github"
     },
     {
       "id": 3,
-      "title": "Talk by Garann Means, 'Storming the Gates of Open-Source'",
-      "time": "October 17' 2020  @  7:00PM",
+      "title": "Title Here",
+      "name": "Rizel Scarlett",
+      "time": "October 22' 2021  @  7:00PM",
       "location": "Virtual",
-      "imagelink": "Photos/Garann.png",
-      "formatDate": "17-10-2020"
+      "imagelink": "https://media-exp1.licdn.com/dms/image/C4E03AQE4ekWo_AxCMg/profile-displayphoto-shrink_200_200/0/1551287106903?e=1639612800&v=beta&t=bsQgqHGmDK7n7Gk_0uuCQC9F6jTBfgJIqyHhR_wG7O8",
+      "formatDate": "17-10-2020",
+      "company": "Github"
     },
     {
         "id":4,
-        "title": "Talk by Diana Rodriguez, 'Women in OSS Community'",
-        "time":"October 18' 2020 @ 6:30PM",
+        "title": "Title Here",
+        "name": "Aditya Oberai",
+        "time":"October 22' 2021 @ 6:30PM",
         "location":"Virtual",
-        "imagelink": "Photos/Diana.png",
-        "formatDate":"18-10-2020"
+        "imagelink": "https://media-exp1.licdn.com/dms/image/C4E03AQHHeOt8RFiMGA/profile-displayphoto-shrink_200_200/0/1621757822139?e=1639612800&v=beta&t=PRqL2EKZbUcrnBscuUeo-26nMsUxYKAiXeqYKML8szg",
+        "formatDate":"18-10-2020",
+        "company": "Appwrite"
     }
   ]
   
