@@ -108,7 +108,7 @@
   <h1> About </h1>
   <br>
   <p>
-    Welcome to the first ever HacktoberFest event organised by IIIT Sonepat.
+    Welcome to the HacktoberFest event organised by IIIT Sonepat.
     <br>
     As our society grows more and more dependent on computers, the ownership of the software we run needs to be more and more decentralised and open sourced.
     <br>
