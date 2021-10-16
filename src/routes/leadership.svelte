@@ -24,7 +24,7 @@
 
 <section class="card-list">
   {#each datas as data (data.id)} 
-    <TeamComponent imgSrc={data.imgSrc}/>
+    <TeamComponent imgSrc={data.imgSrc} name={data.name} role={data.role}/>
   {/each}
 </section>
 
