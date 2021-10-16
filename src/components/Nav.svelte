@@ -41,10 +41,10 @@
     padding: 0.1em 0.25em;
     display: block;
     text-transform: uppercase;
+    color: #f74700;
     font-size: 1.6rem;
     transition: all 0.5s;
     position: relative;
-    border-bottom: 2px solid #000;
   }
 
   .nav-link::after {
@@ -57,7 +57,8 @@
     height: 0;
     opacity: 0;
     transition: all 0.6s;
-    background-color: #df85d9;
+    background-color: #f74700;
+    border-radius: 20%;
   }
 
   .nav-link:hover::after {
@@ -66,8 +67,7 @@
   }
 
   .nav-link:hover {
-    color: #fff;
-	border-bottom: 2px solid #70314f;
+    color: rgb(79, 94, 74);
   }
 
   .burger-container {
@@ -86,7 +86,7 @@
   .hamburger-icon {
     width: 30px;
     height: 2px;
-    background: #000;
+    background: #f74700;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
   }
@@ -97,7 +97,7 @@
     position: absolute;
     width: 30px;
     height: 2px;
-    background: #000;
+    background: #f74700;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
   }
@@ -163,10 +163,10 @@
     }
 
     .burger-container {
-      position: relative;
+      position: absolute;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items:center;
     }
   }
 
@@ -229,7 +229,7 @@
 	<div class = "logo-container">
 		<div class="logo-front">
 		<a href=".">
-			<img src = "Icon.png" alt="header" class="nav-head" />
+			<img src = "https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg" alt="header" class="nav-head" />
 		</a>
 		</div>
 		<div class="logo-back">
@@ -246,7 +246,7 @@
 		<li><a class="nav-link" href="events">events</a></li>
     <li><a rel="prefetch" class="nav-link" href="team">team</a></li>
     <li><a class="nav-link" href="leadership">leadership</a></li>
-	  </ul>
+	</ul>
 	  <div class="nav-overlay" on:click={handleClick} class:open={isOpen}>
 	  </div>
 </nav>
