@@ -13,8 +13,14 @@
   },
   {
       "id": 3,
-      "name":"Aneesh",
-      "imgSrc": "https://media-exp1.licdn.com/dms/image/C4E03AQE-VF86Z77PRQ/profile-displayphoto-shrink_200_200/0/1613316484368?e=1639612800&v=beta&t=3vTscZCjGuS3UI03KCcs8UIgkk1M42wXJKq2-J-kM98",
+      "name":"Chandra Mauli",
+      "imgSrc": "https://media-exp1.licdn.com/dms/image/C5603AQEnkdq2iSmemQ/profile-displayphoto-shrink_200_200/0/1606628515171?e=1640217600&v=beta&t=mHNHhzJbyZ4fSQVu4XL6hX4yMeEoChXNyHsst6bLdAI",
       "role": "#role#"
-  }
+  },
+  {
+      "id": 4,
+      "name":"Vansh Kela",
+      "imgSrc": "https://media-exp1.licdn.com/dms/image/C5603AQEzAqn1BaX0wg/profile-displayphoto-shrink_200_200/0/1611022339156?e=1640217600&v=beta&t=Rs04P-LYB5liv6ATieVYwtuhlJ6ztClG2RKJcAIUBx0",
+      "role": "#role#"
+}
 ]
