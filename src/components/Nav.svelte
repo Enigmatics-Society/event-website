@@ -58,7 +58,6 @@
     opacity: 0;
     transition: all 0.6s;
     background-color: #f74700;
-    border-radius: 20%;
   }
 
   .nav-link:hover::after {
