@@ -3,18 +3,24 @@
     "id": 1,
     "name": "Ansh Tyagi",
     "imgSrc": "https://media-exp1.licdn.com/dms/image/C5103AQFs1YYOiivR8Q/profile-displayphoto-shrink_200_200/0/1580568093114?e=1639612800&v=beta&t=Uivs4FDaPl5r8Tb_a7FqB4bJVZhkyHLPAqC_MuLELng",
-    "role": "#role#"
+    "role": "Organizer"
   },
   {
       "id": 2,
       "name":"Harshit",
       "imgSrc":"https://media-exp1.licdn.com/dms/image/C4E03AQFtl20zmkvYeg/profile-displayphoto-shrink_200_200/0/1592390475442?e=1639612800&v=beta&t=I6oXR5erjIrRrMuLewX3Xo0_jWzOny9ZzUN2KwW14to",
-      "role": "#role#"
+      "role": "Organizer"
   },
   {
       "id": 3,
-      "name":"Aneesh",
-      "imgSrc": "https://media-exp1.licdn.com/dms/image/C4E03AQE-VF86Z77PRQ/profile-displayphoto-shrink_200_200/0/1613316484368?e=1639612800&v=beta&t=3vTscZCjGuS3UI03KCcs8UIgkk1M42wXJKq2-J-kM98",
-      "role": "#role#"
+      "name":"Chandra Mauli",
+      "imgSrc": "https://media-exp1.licdn.com/dms/image/C5603AQEnkdq2iSmemQ/profile-displayphoto-shrink_200_200/0/1606628515171?e=1640217600&v=beta&t=mHNHhzJbyZ4fSQVu4XL6hX4yMeEoChXNyHsst6bLdAI",
+      "role": "Organizer"
+  },
+  {
+      "id": 4,
+      "name":"Vansh Kela",
+      "imgSrc": "https://media-exp1.licdn.com/dms/image/C5603AQEzAqn1BaX0wg/profile-displayphoto-shrink_200_200/0/1611022339156?e=1640217600&v=beta&t=Rs04P-LYB5liv6ATieVYwtuhlJ6ztClG2RKJcAIUBx0",
+      "role": "Organizer"
   }
 ]
