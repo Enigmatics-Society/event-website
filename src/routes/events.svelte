@@ -43,7 +43,7 @@
 {#each datas as data (data.id)} 
     {#if !compareDate(data.formatDate)}
         <EventCards title={data.title} time={data.time}
-    location={data.location} imagelink={data.imagelink} />
+    location={data.location} imagelink={data.imagelink} name={data.name} company={data.company}/>
     {/if}
 {/each}
 
@@ -51,16 +51,19 @@
     .main-title {
         font-size: 3rem;
         font-weight: bold;
+        color: #f74700;
     }
 
     .sub-title {
         font-size: 2rem;
         margin-top: 4rem;
+        color: #f74700;
     }
 
     @media (max-width:700px) {
         .main-title {
             font-size: 2rem;
+            color: #f74700;
         }
     }
 </style>
