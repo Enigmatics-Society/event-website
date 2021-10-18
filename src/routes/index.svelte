@@ -135,7 +135,6 @@
         <br>
         A special thanks to Digital Ocean for their immense support</p>	
          <br>
-        <p><a href="##">Register Here</a></p>	
         <p><a href = "##"> Youtube Live Link </a></p>
     </div>
   </div>
