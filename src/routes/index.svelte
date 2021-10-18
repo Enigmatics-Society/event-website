@@ -11,6 +11,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
   }
 
   h1{
@@ -27,7 +28,6 @@
   .justify-center {
       justify-content: center;
   }
-
   .items-center {
       align-items: center;
   }
@@ -60,6 +60,7 @@
       margin-inline-end: 0px;
       font-weight: bold;
       text-align: center;
+
   }
   .card {
     box-shadow: 0 4px 8px 0 rgba(255, 132, 50, 0.568);
@@ -139,3 +140,4 @@
     </div>
   </div>
 </div>
+
