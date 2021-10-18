@@ -3,12 +3,12 @@
     "id": 1,
     "name": "Dr. M. N. Doja",
     "imgSrc": "https://media-exp1.licdn.com/dms/image/C5603AQEX72LuWXQlNA/profile-displayphoto-shrink_200_200/0/1589997615105?e=1639612800&v=beta&t=SGh8vpryDmQMt2o4HiHT5LYFgpAVFaYzYa6n7UAOMfg",
-    "role": "Director"
+    "role": "Director, IIIT Sonepat"
   },
   {
       "id": 2,
       "name":"Dr. Mukesh Mann",
       "imgSrc":"https://media-exp1.licdn.com/dms/image/C4E03AQFLrQfe_HqG4A/profile-displayphoto-shrink_200_200/0/1632847177789?e=1639612800&v=beta&t=8Ric8ZzQcjYcEPpnk4mxDinqKkWIQBvtnhn6ZxN6Vm8",
-      "role": "Faculty"
+      "role": "Faculty, IIIT Sonepat"
   }
 ]
