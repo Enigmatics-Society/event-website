@@ -24,9 +24,11 @@
 
 <div class="main-title">OUR TEAM</div>
 
+<br>
+
 <section class="card-list">
   {#each datas as data (data.id)} 
-    <TeamComponent imgSrc={data.imgSrc}/>
+    <TeamComponent imgSrc={data.imgSrc} name={data.name} role={data.role}/>
   {/each}
 </section>
 
@@ -36,7 +38,8 @@
     font-weight: bold;
     text-align: center;
     padding-bottom: 1rem;
-    border-bottom: 2px solid #ffc7d1;
+    border-bottom: 2px solid rgb(255, 168, 133);
+    color: #f74700;
   }
 
   .card-list {
