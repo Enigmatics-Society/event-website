@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. M. N. Doja",
+      "imgSrc": "Photos/directorsir.png"
+    },
+    {
+        "id": 2,
+        "name":"Dr. Mukesh Mann",
+        "imgSrc":"Photos/mukeshsir.png"
+    }
+]
+  

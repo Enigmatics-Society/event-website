@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Team</title>
+  <title>Leadership</title>
 </svelte:head>
 
 
@@ -16,19 +16,15 @@
 
   onMount(async () => {
     AOS.init();
-    const res = await fetch('./Data/currentTeam.json');
+    const res = await fetch('./Data/faculty.json');
     const textData = await res.text();
     datas = await JSON.parse(textData);
   });
 </script>
 
-<div class="main-title">OUR TEAM</div>
-
-<br>
-
 <section class="card-list">
   {#each datas as data (data.id)} 
-    <TeamComponent imgSrc={data.imgSrc} name={data.name} role={data.role}/>
+    <TeamComponent imgSrc={data.imgSrc}/>
   {/each}
 </section>
 
@@ -38,8 +34,7 @@
     font-weight: bold;
     text-align: center;
     padding-bottom: 1rem;
-    border-bottom: 2px solid rgb(255, 168, 133);
-    color: #f74700;
+    border-bottom: 2px solid #ffc7d1;
   }
 
   .card-list {

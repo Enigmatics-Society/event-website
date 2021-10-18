@@ -1,111 +1,126 @@
+<script>
+  let bgImage = 'https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg';
+</script>
+
 <style>
-
-.logo-container {
+  div {
     text-align: center;
-    width: 850px;
-    height: 400px;
-    font-size: 2rem;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: .4s;
-    perspective: 800px;
   }
-  .logo-front{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
-    transition: .4s;
-  }
-  .logo-container:hover .logo-front{
-    transform: rotateX(-180deg);
-  }
-  .about-back{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    font-size: 1.1rem;
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: .4s;
-  }
-  .about-back > p{
-    line-height: 1.9;
-    word-spacing: 1.5;
-  }
-  .about-back > h2{
-    background-image: linear-gradient(to right,#ffc7d1, #5a03cc);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: 700;
-    margin: 5px;
-  }  
-  .divider{
-    height: 3px;
-    width: 140px;
-    background-image: linear-gradient(to right, #ffc7d1, #5a03cc);
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -30%);
-  }
-  .logo-container:hover .about-back{
-    transform: rotateX(0deg);
-  }
-  img {
-    width: "40";
-	height: "30";
-    /* max-width: 600px; */
-    margin: 0 0 1em 0;
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
-.logo-front {
-      font-size: 1.5rem;
-    }
-  @media (max-width: 500px) {
-    .logo-container {
-      display: inline-block;
-      width: 300px;
-      height: 160px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    .logo-front > p{
-      font-size: 1.1rem;
-    }
-    .about-back{
-      display: none;
-    }
-    .logo-container:hover .logo-front{
-      transform: none;
-    }
+  h1{
+    color:rgb(53, 34, 26);
+    font-weight: bolder;
+  }
+  p{
+    color:rgba(145,168,140,var(--tw-text-opacity));
+  }
+  a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+  }
+  .justify-center {
+      justify-content: center;
+  }
+
+  .items-center {
+      align-items: center;
+  }
+  .flex {
+      display: flex;
+  }
+  .font-bold {
+      font-weight: 700;
+  }
+  .text-lgreen {
+      --tw-text-opacity: 1;
+      color: rgba(145,168,140,var(--tw-text-opacity));
+  }
+  .pb-2 {
+      padding-bottom: .5rem;
+  }
+  .text-xs {
+      font-size: .75rem;
+      line-height: 1rem;
+  }
+  .md\:text-base {
+      font-size: 1rem;
+      line-height: 1.5rem;
+  }
+  h4 {
+      display: block;
+      margin-block-start: 1.33em;
+      margin-block-end: 1.33em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(255, 132, 50, 0.568);
+    transition: 1s;
+    width: auto;
+    border-radius: 20px;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    padding: 1 1;
+    background-color: #f74700;
+    border-radius: 20px;
+    padding:5% 5%; 
   }
 </style>
 
-<svelte:head>
-	<title>IIIT Sonepat Hacktober Fest Meetup</title>
-</svelte:head>
-
-<div class="logo-container">
-	<div class="logo-front">
-		<img alt="logo" src="logo.png" width="800" height="500">
-	</div>
-	<div class="about-back">
-		<h2> About </h2>
-		<div class="divider"></div>
-		<p>Welcome to the first ever HacktoberFest event organised by IIIT Sonepat.
-			<br>
-			As our society grows more and more dependent on computers, the ownership of the software we run needs to be more and more decentralised and open sourced.
-			<br>
-			Whether you are a big contributor or a first time programmer, you are welcome to join this event. Learning some and sharing some is key.
-			<br>
-			From getting started with open source to making your first PR, we will be covering it all.
-			<br>
-			Thanks Digital Ocean for their immense support</p>	
-	</div>
+<div>
+  <img src="{bgImage}" alt="">
 </div>
+<h4 class="font-bold text-lgreen pb-2 text-xs md:text-base pt-5">Presented by</h4>
+<div class="flex space-x-3 md:space-x-10 justify-center items-center">
+  <a target="_blank" rel="noopener" href="https://www.digitalocean.com">
+    <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-digitalocean-gr.f6faef2.svg" alt="DigitalOcean logo" class="h-6 md:h-12">
+  </a> 
+  <a target="_blank" rel="noopener" href="https://hacktoberfest.appwrite.io/">
+    <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-appwrite-gr.1161116.svg" alt="Appwrite logo" class="h-6 md:h-12">
+  </a> 
+  <a target="_blank" rel="noopener" href="http://devmesh.intel.com/">
+    <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-intel-gr.a510816.svg" alt="Intel logo" class="h-5 md:h-10">
+  </a>
+  <a target="_blank" rel="noopener" href="https://deepsource.io/hacktoberfest/">
+    <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-deepsource-gr.37aa9bc.svg" alt="Deepsource logo" class="h-6 md:h-12">
+  </a>
+</div>
+<br>
+<br>
 
+<div class="card">
+
+  <div class="container">
+  <h1> About </h1>
+  <br>
+  <p>
+    Welcome to the first ever HacktoberFest event organised by IIIT Sonepat.
+    <br>
+    As our society grows more and more dependent on computers, the ownership of the software we run needs to be more and more decentralised and open sourced.
+    <br>
+    Whether you are a big contributor or a first time programmer, you are welcome to join this event. Learning some and sharing some is key.
+    <br>
+    From getting started with open source to making your first PR, we will be covering it all.
+    <br>
+    A special thanks to Digital Ocean for their immense support</p>	
+     <br>
+    <p><a href="##">Register Here</a></p>
+<br>	
+<p><a href = "##"> Youtube Live Link </a></p>
+
+</div>
+</div>
