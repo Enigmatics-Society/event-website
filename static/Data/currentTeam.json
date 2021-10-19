@@ -6,21 +6,27 @@
     "role": "Organizer"
   },
   {
-      "id": 2,
-      "name":"Harshit",
-      "imgSrc":"Photos/Harshit.png",
-      "role": "Organizer"
+    "id": 2,
+    "name": "Harshit",
+    "imgSrc": "Photos/Harshit.png",
+    "role": "Organizer"
   },
   {
-      "id": 3,
-      "name":"Chandra Mauli",
-      "imgSrc": "Photos/Chandramauli.png",
-      "role": "Organizer"
+    "id": 3,
+    "name": "Chandra Mauli",
+    "imgSrc": "Photos/Chandramauli.png",
+    "role": "Organizer"
   },
   {
-      "id": 4,
-      "name":"Vansh Kela",
-      "imgSrc": "Photos/Vansh.png",
-      "role": "Organizer"
+    "id": 4,
+    "name": "Vansh Kela",
+    "imgSrc": "Photos/Vansh.png",
+    "role": "Organizer"
+  },
+  {
+    "id": 5,
+    "name": "Aditya Chaudhary",
+    "imgSrc": "Photos/AdityaChaudhary.png",
+    "role": "Organizer"
   }
 ]
