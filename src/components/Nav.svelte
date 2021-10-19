@@ -58,7 +58,6 @@
     opacity: 0;
     transition: all 0.6s;
     background-color: #f74700;
-    border-radius: 20%;
   }
 
   .nav-link:hover::after {
@@ -149,10 +148,6 @@
   }
 
 	@media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-
     .nav-head {
       max-height: 70px;
     }
@@ -164,7 +159,7 @@
 
     .burger-container {
       position: absolute;
-      display: flex;
+      display: none;
       justify-content: center;
       align-items:center;
     }
@@ -175,7 +170,7 @@
     }
   @media (max-width: 500px) {
     .logo-container {
-      display: inline-block;
+      display: none;
       width: 300px;
       height: 160px;
       left: 50%;
