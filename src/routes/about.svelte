@@ -18,8 +18,48 @@
   Information Technology Sonepat is an Institute of National Importance created by
   the MHRD, Government of India in the Public Private Partnership model.
 </p>
+<p class="main-content" style="border-bottom: 2px solid rgb(255, 168, 133);" />
+<br />
+<div class="card">
+  <img
+    alt="colleg-image"
+    src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg"
+    class="main-image"
+  />
+</div>
+<br />
+
+<div class="content-card">
+  <div class="container">
+    <h3>
+      Open source is changing the world – one contribution at a time. Support
+      open source throughout October! Hacktoberfest encourages participation in
+      the open source community, which grows bigger every year.
+    </h3>
+  </div>
+</div>
 
 <style>
+  .content-card {
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(247, 70, 0, 0.205);
+    transition: 0.3s;
+    width: 60%;
+    border-radius: 30px;
+    background-color: #f74700;
+  }
+  .content-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container {
+    padding: 20px 16px;
+  }
+
+  h3 {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+  }
   .main-title {
     font-size: 3rem;
     font-weight: bold;
@@ -33,7 +73,6 @@
     font-weight: 400;
     text-align: center;
     padding-bottom: 1rem;
-    border-bottom: 2px solid rgb(255, 168, 133);
     color: #f74700;
   }
   .main-image {
@@ -44,6 +83,8 @@
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(247, 70, 0, 0.205);
     transition: 0.3s;
+    max-height: 250px;
+    object-fit: contain;
   }
   .card {
     margin: auto;
