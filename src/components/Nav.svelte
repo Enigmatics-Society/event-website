@@ -1,5 +1,5 @@
 <script>
-	let active = false;
+  let active = false;
   let addActive = "";
 
   let isOpen = false;
@@ -9,8 +9,38 @@
   }
 </script>
 
+<nav>
+  <div class="logo-container">
+    <div class="logo-front">
+      <a href=".">
+        <img
+          src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg"
+          alt="header"
+          class="nav-head"
+        />
+      </a>
+    </div>
+    <div class="logo-back">
+      <a href=".">
+        <img src="iiit.png" alt="header1" class="nav-head" />
+      </a>
+    </div>
+    <div class="burger-container" on:click={handleClick} class:open={isOpen}>
+      <div class="hamburger-icon" />
+    </div>
+  </div>
+  <ul class="nav-links ">
+    <li><a class="nav-link" href=".">home</a></li>
+    <li><a class="nav-link" href="events">events</a></li>
+    <li><a rel="prefetch" class="nav-link" href="team">team</a></li>
+    <li><a class="nav-link" href="leadership">leadership</a></li>
+    <li><a class="nav-link" href="about">about</a></li>
+  </ul>
+  <div class="nav-overlay" on:click={handleClick} class:open={isOpen} />
+</nav>
+
 <style>
-	.nav-head {
+  .nav-head {
     max-height: 90px;
     width: auto;
   }
@@ -22,7 +52,7 @@
     align-items: center;
     height: 10vh;
   }
-	ul {
+  ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -139,7 +169,7 @@
     z-index: 5;
   }
 
-  .logo-container:hover .logo-back{
+  .logo-container:hover .logo-back {
     transform: rotateX(0deg);
   }
 
@@ -147,7 +177,7 @@
     transform: translateX(0%);
   }
 
-	@media (max-width: 768px) {
+  @media (max-width: 768px) {
     .nav-head {
       max-height: 70px;
     }
@@ -161,13 +191,13 @@
       position: absolute;
       display: none;
       justify-content: center;
-      align-items:center;
+      align-items: center;
     }
   }
 
   .logo-front {
-      font-size: 1.5rem;
-    }
+    font-size: 1.5rem;
+  }
   @media (max-width: 500px) {
     .logo-container {
       display: none;
@@ -176,10 +206,10 @@
       left: 50%;
       transform: translateX(-50%);
     }
-    .logo-back{
+    .logo-back {
       display: none;
     }
-    .logo-container:hover .logo-front{
+    .logo-container:hover .logo-front {
       transform: none;
     }
   }
@@ -191,10 +221,10 @@
     font-size: 2rem;
     position: relative;
     transform-style: preserve-3d;
-    transition: .4s;
+    transition: 0.4s;
     perspective: 90px;
   }
-  .logo-front{
+  .logo-front {
     position: absolute;
     top: 0;
     left: 0;
@@ -202,12 +232,12 @@
     height: 100%;
     backface-visibility: hidden;
     transform: rotateX(0deg);
-    transition: .4s;
+    transition: 0.4s;
   }
-  .logo-container:hover .logo-front{
+  .logo-container:hover .logo-front {
     transform: rotateX(-180deg);
   }
-  .logo-back{
+  .logo-back {
     position: absolute;
     top: 0;
     left: 0;
@@ -216,32 +246,6 @@
     font-size: 1.1rem;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    transition: .4s;
+    transition: 0.4s;
   }
 </style>
-
-<nav>
-	<div class = "logo-container">
-		<div class="logo-front">
-		<a href=".">
-			<img src = "https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg" alt="header" class="nav-head" />
-		</a>
-		</div>
-		<div class="logo-back">
-			<a href = ".">
-				<img src = "iiit.png" alt="header1" class="nav-head"/>
-			</a>
-		</div>
-		<div class="burger-container" on:click={handleClick} class:open={isOpen}>
-			<div class="hamburger-icon"></div>
-		</div>
-	</div>
-	<ul class="nav-links ">
-		<li><a class="nav-link" href=".">home</a></li>
-		<li><a class="nav-link" href="events">events</a></li>
-    <li><a rel="prefetch" class="nav-link" href="team">team</a></li>
-    <li><a class="nav-link" href="leadership">leadership</a></li>
-	</ul>
-	  <div class="nav-overlay" on:click={handleClick} class:open={isOpen}>
-	  </div>
-</nav>
